@@ -1,0 +1,227 @@
+@import url('https://api.fontshare.com/css?f[]=gambetta@2,2&display=swap');
+
+.CustomSection .cover {
+    background-size: cover !important;
+  }
+  
+  .CustomSection .bt {
+    border-top-style: solid;
+    border-top-width: 1px;
+  }
+  
+  .CustomSection .b--black-10 {
+    border-color: #0000001a;
+  }
+  
+  .CustomSection .cf:before,
+  .CustomSection .cf:after {
+    content: " ";
+    display: table;
+  }
+  
+  .CustomSection .cf:after {
+    clear: both;
+  }
+  
+  .CustomSection .cf {
+    *zoom: 1;
+  }
+  
+  .CustomSection .dn {
+    display: none;
+  }
+  
+  .CustomSection .db {
+    display: block;
+  }
+  
+  .CustomSection .dt {
+    display: table;
+  }
+  
+  .CustomSection .dtc {
+    display: table-cell;
+  }
+  
+  .CustomSection .fl {
+    float: left;
+    _display: inline;
+  }
+  
+  .CustomSection .fw6 {
+    font-weight: 600;
+  }
+  
+  .CustomSection .fw9 {
+    font-weight: 900;
+  }
+  
+  .CustomSection .vh-100 {
+    height: 100vh;
+  }
+  
+  .CustomSection .lh-title {
+    color: PaleGoldenRod;
+    line-height: 1.25;
+    font-family: 'Gambetta', serif;
+  }
+  
+  .CustomSection .lh-copy {
+    line-height: 1.5;
+  }
+  
+  .CustomSection .mw6 {
+    max-width: 32rem;
+  }
+  
+  .CustomSection .w-50 {
+    width: 50%;
+  }
+  
+  .CustomSection .w-100 {
+    width: 100%;
+  }
+  
+  .CustomSection .gold {
+    color: PaleGoldenRod;
+    font-family: 'Gambetta', serif;
+  }
+  
+  .CustomSection .bg-light-pink {
+    background-color: #111111;
+  }
+  
+  .CustomSection .pl2 {
+    padding-left: .5rem;
+  }
+  
+  .CustomSection .pr1 {
+    padding-right: .25rem;
+  }
+  
+  .CustomSection .pb3 {
+    padding-bottom: 1rem;
+  }
+  
+  .CustomSection .pb5 {
+    padding-bottom: 4rem;
+  }
+  
+  .CustomSection .pv4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .CustomSection .ph3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .CustomSection .f2 {
+    font-size: 2.25rem;
+  }
+  
+  .CustomSection .f4 {
+    font-size: 1.25rem;
+  }
+  
+  .CustomSection .f5 {
+    font-size: 1rem;
+  }
+  
+  .CustomSection .f6 {
+    font-size: .875rem;
+  }
+  
+  .CustomSection .measure {
+    max-width: 30em;
+  }
+  
+  .CustomSection .center {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .CustomSection .v-mid {
+    vertical-align: middle;
+  }
+  
+  @media screen and (min-width: 30em) {
+    .CustomSection .fw4-ns {
+      font-weight: 400;
+    }
+  }
+  
+  @media screen and (min-width: 30em) and (max-width: 60em) {
+    .CustomSection .ph4-m {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  
+    .CustomSection .f3-m {
+      font-size: 1.5rem;
+    }
+  
+    .CustomSection .f5-m {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (min-width: 60em) {
+    .CustomSection .dt-l {
+      display: table;
+    }
+  
+    .CustomSection .dtc-l {
+      display: table-cell;
+    }
+    .CustomSection .w-50-l {
+        width: 50%;
+    }
+
+    .CustomSection .pl0-l {
+        padding-left: 0;
+    }
+
+    .CustomSection .pl2-l {
+        padding-left: .5rem;
+    }
+
+    .CustomSection .pr0-l {
+        padding-right: 0;
+    }
+
+    .CustomSection .pr2-l {
+        padding-right: .5rem;
+    }
+
+    .CustomSection .pr3-l {
+        padding-right: 1rem;
+    }
+
+    .CustomSection .pv4-l {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .CustomSection .ph5-l {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .CustomSection .f-subheadline-l {
+        font-size: 5rem;
+    }
+
+    .CustomSection .f1-l {
+        font-size: 3rem;
+    }
+
+    .CustomSection .f4-l {
+        font-size: 1.25rem;
+    }
+
+    .CustomSection .measure-l {
+        max-width: 30em;
+    }
+}

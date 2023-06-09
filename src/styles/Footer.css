@@ -1,0 +1,122 @@
+@import url('https://api.fontshare.com/css?f[]=gambetta@2,2&display=swap');
+
+.CustomFooter .bt {
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.CustomFooter .b--black-10 {
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.CustomFooter .db {
+    display: block;
+}
+
+.CustomFooter .dib {
+    display: inline-block;
+}
+
+.CustomFooter .b {
+    font-weight: bold;
+}
+
+.CustomFooter .lh-solid {
+    line-height: 1;
+}
+
+.CustomFooter .link {
+    text-decoration: none;
+    transition: color .15s ease-in;
+}
+
+.CustomFooter .link:link, .CustomFooter .link:visited {
+    transition: color .15s ease-in;
+}
+
+.CustomFooter .link:hover {
+    transition: color .15s ease-in;
+}
+
+.CustomFooter .link:active {
+    transition: color .15s ease-in;
+}
+
+.CustomFooter .link:focus {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+}
+
+.CustomFooter .black-70 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.CustomFooter .mid-gray {
+    color: PaleGoldenRod;
+}
+
+.CustomFooter .pl2 {
+    padding-left: .5rem;
+}
+
+.CustomFooter .pr2 {
+    padding-right: .5rem;
+}
+
+.CustomFooter .pv6 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.CustomFooter .ph2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.CustomFooter .ph3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.CustomFooter .mt5 {
+    margin-top: 4rem;
+}
+
+.CustomFooter .ttu {
+    text-transform: uppercase;
+}
+
+.CustomFooter .f3 {
+    font-size: 1.5rem;
+}
+
+.CustomFooter .f6 {
+    font-size: .875rem;
+    font-family: 'Gambetta', serif;
+}
+
+.CustomFooter .dim {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+}
+
+.CustomFooter .dim:hover, .CustomFooter .dim:focus {
+    opacity: .5;
+    transition: opacity .15s ease-in;
+}
+
+.CustomFooter .dim:active {
+    opacity: .8;
+    transition: opacity .15s ease-out;
+}
+
+@media screen and (min-width: 30em) {
+    .CustomFooter .ph4-ns {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .CustomFooter .f2-ns {
+        font-size: 2.25rem;
+    }
+}

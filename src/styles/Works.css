@@ -1,0 +1,86 @@
+@import url('https://api.fontshare.com/css?f[]=gambetta@2,2&display=swap');
+
+.CustomWorks .text {
+    color:PaleGoldenRod;
+    font-family: 'Gambetta', serif;
+
+}
+.CustomWorks .bb {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.CustomWorks .b--black-10 {
+    border-color: #30302B;
+}
+
+.CustomWorks.db {
+    display: block;
+}
+
+.CustomWorks .lh-copy {
+    line-height: 1.5;
+}
+
+.CustomWorks .list {
+    list-style-type: none;
+}
+
+.CustomWorks .pa3 {
+    padding: 1rem;
+}
+
+.CustomWorks .pl0 {
+    padding-left: 0;
+}
+
+.CustomWorks .mb1 {
+    margin-bottom: .25rem;
+}
+
+.CustomWorks .f3 {
+    font-size: 1.5rem;
+}
+
+.CustomWorks .f5 {
+    font-size: 1rem;
+}
+
+.CustomWorks .measure {
+    max-width: 30em;
+}
+
+@media screen and (min-width: 30em) {
+    .CustomWorks .pa4-ns {
+        padding: 2rem;
+    }
+}
+
+
+/* ANIMATION */
+
+.custom-li {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .custom-li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://medias.gazette-drouot.com/prod/medias/mediatheque/28537.jpg);
+    transition: left 2s ease; /* Animation plus lente */
+    z-index: -1; /* Déplacez-le en arrière pour qu'il ne recouvre pas le texte */
+  }
+  
+  .custom-li:hover::before {
+    left: 75%;
+  }
+  
+
+
+  /* CUSTOM LIST */
+  

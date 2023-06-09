@@ -1,0 +1,92 @@
+.db {
+    display: block;
+  }
+  
+  .dib {
+    display: inline-block;
+  }
+  
+  .b {
+    font-weight: bold;
+    font-family: 'Gambetta', serif;
+  }
+  
+  .link {
+    text-decoration: none;
+    transition: color .15s ease-in;
+  }
+  
+  .link:link,
+  .link:visited {
+    transition: color .15s ease-in;
+  }
+  
+  .link:hover {
+    transition: color .15s ease-in;
+    background-image: linear-gradient(to right, transparent 50%, PaleGoldenRod 50%);
+    background-position: 100%;
+    background-size: 200% 100%;
+    color: transparent; /* Cache temporairement la couleur du texte */
+    -webkit-background-clip: text; /* Applique la transition uniquement sur les lettres */
+    background-clip: text; /* Applique la transition uniquement sur les lettres */
+  }
+  
+  .link:active {
+    transition: color .15s ease-in;
+  }
+  
+  .link:focus {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+  }
+  
+  .list {
+    list-style-type: none;
+  }
+  
+  .mid-gray {
+    color: #555;
+  }
+  
+  .pa2 {
+    padding: .5rem;
+  }
+  
+  .pa3 {
+    padding: 1rem;
+  }
+  
+  .mr2 {
+    margin-right: .5rem;
+  }
+  
+  .f4 {
+    font-size: 1.25rem;
+  }
+  
+  .dim {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+  }
+  
+  .dim:hover,
+  .dim:focus {
+    opacity: .5;
+    transition: opacity .15s ease-in;
+  }
+  
+  .dim:active {
+    opacity: .8;
+    transition: opacity .15s ease-out;
+  }
+  
+  @media screen and (min-width: 30em) {
+    .pa5-ns {
+      padding: 4rem;
+    }
+  
+    .f2-ns {
+      font-size: 2.25rem;
+    }
+  }
+  
